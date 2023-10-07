@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:majalah_uts/Read/tampilan_home.dart';
 import 'package:majalah_uts/Search/Tampilan_Search.dart';
 
+import 'Profile/profile.dart';
 import 'Read/home.dart';
 import 'Saved/save.dart';
 
@@ -47,6 +48,7 @@ class _NavigasiState extends State<Navigasi> {
         ),
         Container(
           alignment: Alignment.center,
+          child: Profile(),
         )
       ][indexDipilih],
     );
