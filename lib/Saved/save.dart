@@ -76,7 +76,7 @@ class _SavedState extends State<Saved> {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Card(
-                  margin: EdgeInsets.only(top: 320, left: 16),
+                  margin: EdgeInsets.only(top: 320, left: 17),
                   color: Colors.deepPurple,
                   child: SizedBox(
                     height: 125,
@@ -87,7 +87,7 @@ class _SavedState extends State<Saved> {
               Container(
                 alignment: Alignment.centerRight,
                 child: Card(
-                  margin: EdgeInsets.only(top: 320, right: 16),
+                  margin: EdgeInsets.only(top: 320, right: 17),
                   color: Colors.purple,
                   child: SizedBox(
                     height: 125,

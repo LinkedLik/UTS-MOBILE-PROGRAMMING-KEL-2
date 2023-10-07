@@ -173,7 +173,7 @@ class _TampilanHomeState extends State<TampilanHome> {
                 margin: EdgeInsets.only(top: 340),
                 child: Card(
                   borderOnForeground: true,
-                  color: Colors.yellow,
+                  color: Colors.grey,
                   child: SizedBox(
                     height: 140,
                     width: 500,
@@ -239,7 +239,7 @@ class _TampilanHomeState extends State<TampilanHome> {
                 margin: EdgeInsets.only(top: 480),
                 child: Card(
                   borderOnForeground: true,
-                  color: Colors.green,
+                  color: Colors.grey,
                   child: SizedBox(
                     height: 140,
                     width: 500,
