@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Read.dart';
+
 class TampilanHome extends StatefulWidget {
   const TampilanHome({super.key});
 
@@ -132,9 +134,21 @@ class _TampilanHomeState extends State<TampilanHome> {
                 alignment: Alignment.centerLeft,
                 margin: EdgeInsets.only(top: 270, left: 20),
                 width: 200,
-                child: Text(
-                  "10 Visual that will teach you more than a 300-page-self-help-book",
-                  style: TextStyle(color: Colors.white),
+                child: TextButton(
+                  child: const Text(
+                    "10 Visual that will teach you more than a 300-page-self-help-book",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Read();
+                        },
+                      ),
+                    );
+                  },
                 ),
               ),
               Container(
@@ -186,9 +200,21 @@ class _TampilanHomeState extends State<TampilanHome> {
                 alignment: Alignment.centerLeft,
                 margin: EdgeInsets.only(top: 410, left: 20),
                 width: 200,
-                child: Text(
-                  "10 Visual that will teach you more than a 300-page-self-help-book",
-                  style: TextStyle(color: Colors.white),
+                child: TextButton(
+                  child: const Text(
+                    "10 Visual that will teach you more than a 300-page-self-help-book",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Read();
+                        },
+                      ),
+                    );
+                  },
                 ),
               ),
               Container(
@@ -240,9 +266,21 @@ class _TampilanHomeState extends State<TampilanHome> {
                 alignment: Alignment.centerLeft,
                 margin: EdgeInsets.only(top: 550, left: 20),
                 width: 200,
-                child: Text(
-                  "10 Visual that will teach you more than a 300-page-self-help-book",
-                  style: TextStyle(color: Colors.white),
+                child: TextButton(
+                  child: const Text(
+                    "10 Visual that will teach you more than a 300-page-self-help-book",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Read();
+                        },
+                      ),
+                    );
+                  },
                 ),
               ),
               Container(
