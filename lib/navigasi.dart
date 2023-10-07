@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Read/home.dart';
+
 class Navigasi extends StatefulWidget {
   const Navigasi({super.key});
 
@@ -13,6 +15,7 @@ class _NavigasiState extends State<Navigasi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
           setState(() {
@@ -26,6 +29,20 @@ class _NavigasiState extends State<Navigasi> {
           NavigationDestination(icon: Icon(Icons.person), label: "")
         ],
       ),
+      body: <Widget>[
+        Container(
+          alignment: Alignment.center,
+        ),
+        Container(
+          alignment: Alignment.center,
+        ),
+        Container(
+          alignment: Alignment.center,
+        ),
+        Container(
+          alignment: Alignment.center,
+        )
+      ][indexDipilih],
     );
   }
 }
