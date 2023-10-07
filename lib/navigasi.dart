@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:majalah_uts/Read/tampilan_home.dart';
 
 import 'Read/home.dart';
 
@@ -32,6 +33,7 @@ class _NavigasiState extends State<Navigasi> {
       body: <Widget>[
         Container(
           alignment: Alignment.center,
+          child: TampilanHome(),
         ),
         Container(
           alignment: Alignment.center,
