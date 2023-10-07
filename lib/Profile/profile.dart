@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:majalah_uts/Profile/settings.dart';
+=======
+>>>>>>> Majalah/master
 
 class Profile extends StatefulWidget {
   const Profile({super.key});
@@ -27,6 +30,7 @@ class _ProfileState extends State<Profile> {
                 color: Colors.white,
                 onPressed: () {
                   // Panggil si Settings
+<<<<<<< HEAD
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
@@ -35,6 +39,8 @@ class _ProfileState extends State<Profile> {
                       },
                     ),
                   );
+=======
+>>>>>>> Majalah/master
                 },
               ),
             ),
