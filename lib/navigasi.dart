@@ -3,6 +3,7 @@ import 'package:majalah_uts/Read/tampilan_home.dart';
 import 'package:majalah_uts/Search/Tampilan_Search.dart';
 
 import 'Read/home.dart';
+import 'Saved/save.dart';
 
 class Navigasi extends StatefulWidget {
   const Navigasi({super.key});
@@ -38,6 +39,7 @@ class _NavigasiState extends State<Navigasi> {
         ),
         Container(
           alignment: Alignment.center,
+          child: Saved(),
         ),
         Container(
           alignment: Alignment.center,
