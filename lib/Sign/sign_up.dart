@@ -39,7 +39,7 @@ class _SignUpState extends State<SignUp> {
                 alignment: Alignment.topCenter,
                 margin: EdgeInsets.only(top: 140),
                 child: SocialMedia.socialButtonRect(
-                    "Sign in With Google", Color(00000), Icons.search,
+                    "Sign Up With Google", Color(00000), Icons.search,
                     onTap: () {
                   Navigator.pushReplacement(
                     context,
@@ -55,7 +55,7 @@ class _SignUpState extends State<SignUp> {
                 alignment: Alignment.topCenter,
                 margin: EdgeInsets.only(top: 210),
                 child: SocialMedia.socialButtonRect(
-                    "Sign in With Facebook", Color(00000), Icons.search,
+                    "Sign Up With Facebook", Color(00000), Icons.search,
                     onTap: () {
                   Navigator.pushReplacement(
                     context,
@@ -71,7 +71,7 @@ class _SignUpState extends State<SignUp> {
                 alignment: Alignment.topCenter,
                 margin: EdgeInsets.only(top: 290),
                 child: SocialMedia.socialButtonRect(
-                    "Sign in With Twitter", Color(00000), Icons.search,
+                    "Sign Up With Twitter", Color(00000), Icons.search,
                     onTap: () {
                   Navigator.pushReplacement(
                     context,
@@ -87,7 +87,7 @@ class _SignUpState extends State<SignUp> {
                 alignment: Alignment.topCenter,
                 margin: EdgeInsets.only(top: 370),
                 child: SocialMedia.socialButtonRect(
-                    "Sign in With Email", Color(00000), Icons.search,
+                    "Sign Up With Email", Color(00000), Icons.search,
                     onTap: () {
                   Navigator.pushReplacement(
                     context,
@@ -103,7 +103,7 @@ class _SignUpState extends State<SignUp> {
                 alignment: Alignment.topCenter,
                 margin: EdgeInsets.only(top: 450),
                 child: SocialMedia.socialButtonRect(
-                    "Sign in With Apple", Color(00000), Icons.search,
+                    "Sign Up With Apple", Color(00000), Icons.search,
                     onTap: () {
                   Navigator.pushReplacement(
                     context,
